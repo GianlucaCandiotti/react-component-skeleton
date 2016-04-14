@@ -1,0 +1,11 @@
+#!/bin/bash
+browserify \
+-x react \
+-x react-dom \
+--extension .jsx \
+-g uglifyify \
+dev/js/index.js \
+| uglifyjs \
+--compress warnings=false \
+--mangle \
+-o public/dist/js/bundle.js

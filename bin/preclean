@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ ! -d public/dist ]; then \
+  mkdir -p public/dist/css public/dist/js; \
+fi

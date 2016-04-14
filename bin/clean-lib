@@ -1,0 +1,3 @@
+#!/bin/bash
+rm -rf lib/css lib/js \
+&& mkdir lib/css lib/js
